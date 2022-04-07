@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: gray;
+}
+
+nav{
+    margin-left: 17%;
+    position: absolute;
+    display: block;
+
+}
+
+.navbar {
+    display:flex; 
+    margin-top: 40px;
+}
+
+nav div {
+    margin-left: 20px;
+}
+
+nav div a {
+    text-decoration: none;
+    color: black;
+    font-size: large;
+    font: 24px arial;
+}
+
+.home-box {
+    background-color: antiquewhite;
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 5px 5px;
+}
+
+.home-box:hover {
+    background-color: darkgray;
+    color:white;
+    
+}
+
+.about-box {
+    background-color: antiquewhite;
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 5px 5px;
+    
+}
+.about-box:hover {
+    background-color: darkgray;
+    color:white;
+}
+
+.technologie-box {
+    background-color: antiquewhite;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 5px 5px;
+    
+}
+.technologie-box:hover {
+    background-color: darkgray;
+    color:white;
+}
+
+.portefolio-box {
+    background-color: antiquewhite;
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 5px 5px;
+    
+}
+.portefolio-box:hover {
+    background-color: darkgray;
+    color:white;
+}
+
+.contact-box {
+    background-color: antiquewhite;
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 5px 5px;
+    
+}
+.contact-box:hover {
+    background-color: darkgray;
+    color:white;
+}
+
+header{
+    display:flex;
+}
+
+.label-box{
+    margin-top: 30px;
+    margin-left: 30px;
+    display: flex;
+}
+
+img{
+    position:relative;
+    width: 70px;
+    height: 70px;
+    border-radius: 50px;
+    box-shadow: -5px -2px ;
+}
+
+.l-box{
+    color: antiquewhite;
+    margin-top: 20px;
+    padding-left:  10px;
+    font: 24px arial;
+}
+
