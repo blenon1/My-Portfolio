@@ -7,7 +7,7 @@ body {
 }
 
 nav{
-    margin-left: 17%;
+    margin-left: 20%;
     position: absolute;
     display: block;
 
@@ -16,6 +16,8 @@ nav{
 .navbar {
     display:flex; 
     margin-top: 40px;
+    margin-bottom: 40px;
+    margin-right: ;
 }
 
 nav div {
@@ -107,26 +109,90 @@ nav div a {
 
 header{
     display:flex;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 20px;
+    border-bottom: 5px solid;
+    background-color:khaki;
+}
+
+.img-box{
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    box-shadow: 4px 1px;
+    cursor: pointer;
 }
 
 .label-box{
-    margin-top: 30px;
-    margin-left: 30px;
-    display: flex;
+    display:flex;
+    margin-top: 26px;
+    margin-left: 22px;
 }
 
-img{
-    position:relative;
-    width: 70px;
-    height: 70px;
-    border-radius: 50px;
-    box-shadow: -5px -2px ;
+.img-box:hover{
+    color:white;
+    opacity: 3px;
 }
 
 .l-box{
-    color: antiquewhite;
-    margin-top: 20px;
-    padding-left:  10px;
-    font: 24px arial;
+    font-size: x-large;
+    font-family: sans-serif;
+    padding-left: 20px;
+    padding-top: 18px;
+    cursor: pointer;
 }
 
+.l-box-S{
+    padding-top:50px;
+    margin-left:-180px;
+    font-weight: bold;
+    font-size: small;
+}
+
+.first{
+    margin-top: -300px;
+    padding-top: px;
+    padding-left: 50px;
+    font-size: x-large;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.second{
+    padding-left: 50px;
+    padding-top: 10px;
+    font-size: larger;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+.name{
+    color:gold;
+}
+
+.anima{
+    width: 10px;
+    height: 10px;
+    background-color: red;
+    position: relative;
+    animation-name: Portefolio;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+  
+  @keyframes Portefolio {
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:720px; top:0px;}
+    50%  {background-color:blue; left:720px; top:100px;}
+    75%  {background-color:green; left:0px; top:100px;}
+    100% {background-color:red; left:0px; top:0px;}
+  }
+.anima{
+    margin-top: -100px;
+    margin-left: 40px;
+}
+
+.first-container{
+    border-bottom: 5px solid;
+}
